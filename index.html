@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DevSpace - Computer Science, web development, cloud computing and DevOps portfolio.">
+  <title>DevSpace | Computer Science Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a href="#home" class="logo">Dev<span>Space.</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav id="navMenu" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO MY DIGITAL SPACE</p>
+        <h1>Building ideas into <span>digital experiences.</span></h1>
+        <p class="hero-description">
+          I'm a Computer Science student at COMSATS University Islamabad,
+          Abbottabad Campus, exploring web development, cloud computing,
+          and modern DevOps practices.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="button primary">Explore Projects ↗</a>
+          <a href="#contact" class="button secondary">Get in Touch</a>
+        </div>
+        <div class="hero-note">
+          <span class="status-dot"></span>
+          Learning. Building. Improving.
+        </div>
+      </div>
+
+      <div class="code-card">
+        <div class="code-header">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <span>developer.js</span>
+        </div>
+        <pre><code><span class="purple">const</span> developer = {
+  university: <span class="green">"COMSATS"</span>,
+  campus: <span class="green">"Abbottabad"</span>,
+  interests: [
+    <span class="green">"Web Development"</span>,
+    <span class="green">"Cloud Computing"</span>,
+    <span class="green">"DevOps"</span>
+  ],
+  mindset: <span class="green">"Always Learning"</span>
+};
+
+<span class="blue">console</span>.log(
+  <span class="green">"Hello, World!"</span>
+);</code></pre>
+        <div class="terminal-status">
+          <span class="status-dot"></span> Ready to build something great
+        </div>
+      </div>
+      <div class="hero-glow"></div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Curiosity meets <span>technology.</span></h2>
+      </div>
+      <div class="about-card">
+        <div class="about-icon">⌘</div>
+        <div>
+          <h3>Computer Science Student</h3>
+          <p>
+            I am developing my skills in programming, software development,
+            and modern computing technologies. Through practical projects,
+            I aim to turn concepts into useful digital solutions and learn
+            how software is built, managed, and deployed.
+          </p>
+          <p class="university">
+            COMSATS University Islamabad · Abbottabad Campus
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I'M EXPLORING</p>
+        <h2>My technical <span>toolkit.</span></h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon cyan">⌘</div>
+          <h3>Web Development</h3>
+          <p>Creating responsive websites with HTML, CSS, and JavaScript.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon violet">☁</div>
+          <h3>Cloud Computing</h3>
+          <p>Exploring cloud infrastructure, deployment, and scalable services.</p>
+          <div class="tags"><span>Cloud</span><span>Deployment</span></div>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon green-icon">⌘</div>
+          <h3>Git & DevOps</h3>
+          <p>Learning version control, collaboration, and software delivery workflows.</p>
+          <div class="tags"><span>Git</span><span>GitHub</span><span>CI/CD</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Projects in my <span>workspace.</span></h2>
+        <p class="section-description">
+          A few example projects that represent my learning journey.
+        </p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual visual-one">
+            <span class="visual-symbol">&lt;/&gt;</span>
+            <span class="visual-label">01 / WEB</span>
+          </div>
+          <div class="project-info">
+            <p class="project-type">FRONTEND DEVELOPMENT</p>
+            <h3>Personal Portfolio</h3>
+            <p>A responsive portfolio to showcase skills, projects, and learning progress.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-two">
+            <span class="visual-symbol">⌘</span>
+            <span class="visual-label">02 / DEVOPS</span>
+          </div>
+          <div class="project-info">
+            <p class="project-type">VERSION CONTROL</p>
+            <h3>Git & GitHub Workflow</h3>
+            <p>A static website project managed with commits, branches, and a remote repository.</p>
+            <div class="tags"><span>Git</span><span>GitHub</span><span>CLI</span></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-three">
+            <span class="visual-symbol">☁</span>
+            <span class="visual-label">03 / CLOUD</span>
+          </div>
+          <div class="project-info">
+            <p class="project-type">CLOUD DEPLOYMENT</p>
+            <h3>Static Site Deployment</h3>
+            <p>A learning project focused on publishing a website using GitHub Pages.</p>
+            <div class="tags"><span>Cloud</span><span>Web Hosting</span></div>
+          </div>
+        </article>
+      </div>
+      <p class="project-disclaimer">
+        These are example portfolio entries. Replace them with your actual
+        projects as you complete them.
+      </p>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="contact-card">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have an idea? Let's <span>build it.</span></h2>
+        <p>
+          I'm always interested in learning, collaborating, and exploring
+          new ideas in technology.
+        </p>
+        <a class="button primary" href="mailto:your.email@example.com">
+          Say Hello ↗
+        </a>
+        <p class="email-note">Replace the example email with your own address.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo">Dev<span>Space.</span></a>
+    <p>Designed and built with curiosity.</p>
+    <p>© <span id="year">2026</span> DevSpace. All rights reserved.</p>
+  </footer>
+</body>
+</html>
